@@ -3,44 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile Page</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body style="background-color: rgb(201, 217, 217);">
-    <img src="profile.jpg" alt="" style="width: 20%; height: auto; border-radius: 50%;">
-   <h1>Premwadee Kullabok</h1> 
-   <a href = "https://nest.tdshop.io/products/pre-order/pre-order-catalogs-list"> ไปยัง Website ของหน่วยงาน </a>
-   <br> 
-   <a href="contact.html">ไปยัง Contact</a>
-<hr style="border-style: dotted;">
-   <h3>ประสบการณ์การทำงาน</h3>
- <!--
-   <ul>
-    <li>2022-2024  TD Tawandang</li>
-    <li>2020-2022  Comanche International Company</li>
-   </ul> -->
- <!--ทำให้ List นำเสนอเป็น Table-->
-
- <table >
-    <thead>
-        <tr>
-            <th>
-            Year
-            </th>
-             <th>
-            Work Place
-            </th>
-        </tr>
-    </thead>
-    
-    <tr>
-        <td>2022-2024</td>
-        <td>TD Tawandang</td>
-    </tr>
-    <tr>
-        <td>2020-2022</td>
-        <td>Comanche International Company</td>
-    </tr>
- </table>
+<body>
+    <div class="container">
+        <div class="profile-box">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+            <h1>Premwadee Kullabok</h1>
+        </div>
+        <div class="links-box">
+            <a href="https://nest.tdshop.io/products/pre-order/pre-order-catalogs-list" target="_blank" rel="noopener noreferrer">ไปยัง Website ของหน่วยงาน</a>
+            <a href="contact.html" target="_blank" rel="noopener noreferrer">ไปยัง Contact</a>
+        </div>
+        <hr>
+        <div class="experience-box">
+            <h3>ประสบการณ์การทำงาน</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Work Place</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022-2024</td>
+                        <td>TD</td>
+                    </tr>
+                    <tr>
+                        <td>2020-2022</td>
+                        <td>ริมหาด</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
 </html>
